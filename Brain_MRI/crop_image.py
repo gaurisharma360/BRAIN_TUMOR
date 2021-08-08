@@ -29,5 +29,5 @@ def crop_image(image, plot=False):
         plt.tick_params(axis='both', which='both',top=False, bottom=False, left=False, right=False,labelbottom=False, labeltop=False, labelleft=False, labelright=False)
         plt.title('Cropped Image')
         plt.show()
-    
+   
     return new_image
